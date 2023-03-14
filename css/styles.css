@@ -1,0 +1,53 @@
+body {
+    background-color: #FFF;
+}
+
+.grid-col-span-2 {
+    grid-column: span 2;
+}
+
+.grid-col-span-3 {
+    grid-column: span 3;
+}
+
+.grid-row-span-2 {
+    grid-row: span 2;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+
+    gap: 25px;
+    margin: 3rem;
+}
+
+.box1-1 {
+    background-color: red;
+    width: 1fr;
+    height: 350px;
+    object-fit: cover;
+}
+
+.carlsbergsqrlogo {
+    width: 100%;
+    height: 100%;
+}
+
+.box3-1 {
+    background-color: blue;
+    width: 3fr;
+    height: 350px;
+}
+
+.box2-2 {
+    background-color: green;
+    width: 2fr;
+}
+
+.box2-1 {
+    background-color: purple;
+    width: 2fr;
+    height: 350px;
+}
